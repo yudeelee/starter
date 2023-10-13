@@ -15,6 +15,22 @@
   src: url('../styles/fonts/akzidenzgroteskpro_ext.otf');
 }
 @font-face {
+  font-family: 'AkzidenzLightExt';
+  src: url('../styles/fonts/akzidenzgroteskpro_lightex.ttf');
+}
+@font-face {
+  font-family: 'AkzidenzEbd';
+  src: url('../styles/fonts/akzidenzgroteskpro_xbd.ttf');
+}
+@font-face {
+  font-family: 'AkzidenzBold';
+  src: url('../styles/fonts/akzidenzgroteskpro_bold.ttf');
+}
+@font-face {
+  font-family: 'AkzidenzBoldEx';
+  src: url('../styles/fonts/akzidenzgroteskpro_boldex.otf');
+}
+@font-face {
   font-family: 'Destina';
   src: url('../styles/fonts/denistina_en.ttf');
 }
@@ -36,6 +52,10 @@ $green-color: #bfeb0c;
 
 $Akzidenz: 'Akzidenz';
 $AkzidenzExt: 'AkzidenzExt';
+$AkzidenzLightExt: 'AkzidenzLightExt';
 $AkzidenzMdEx: 'AkzidenzMdEx';
 $AkzidenzMd: 'AkzidenzMd';
+$AkzidenzEbd: 'AkzidenzEbd';
+$AkzidenzBold: 'AkzidenzBold';
+$AkzidenzBoldEx: 'AkzidenzBoldEx';
 $Destina: 'Destina';

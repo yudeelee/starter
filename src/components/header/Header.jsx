@@ -24,6 +24,56 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <div className={styles.middle}>
+          <div className={styles.middleLeft}>
+            <div className={styles.middleTitle}>
+              ПЕРШІ <span className={styles.small}>КРОКИ</span>
+            </div>
+            <div className={styles.middleSubTitle}>
+              ДО ФІНАНСОВОЇ{' '}
+              <span className={styles.small + ' ' + styles.right}>
+                НЕЗАЛЕЖНОСТІ
+              </span>
+            </div>
+            <div className={styles.middleText}>
+              <div className={styles.TextBlock}>
+                Отримай готовий інвестиційний портфель для збільшення свого
+                капіталу та приведи в порядок свої особисті фінанси всього за 4
+                дні
+              </div>
+              <div className={styles.warning + ' ' + styles.small}>
+                <div className={styles.warImage}>
+                  <img src='/img/Warning.png' alt='' />
+                </div>
+                <div className={styles.warText}>
+                  <span>Навіть якщо</span> ти повний новачок в інвестиціях
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.middleRight + ' ' + styles.big}>
+            <div className={styles.middleTitle + ' ' + styles.big}>КРОКИ</div>
+            <div className={styles.middleSubTitle + ' ' + styles.big}>
+              НЕЗАЛЕЖНОСТІ
+            </div>
+            <div className={styles.middleText + ' ' + styles.big}>
+              <div className={styles.warning}>
+                <div className={styles.warImage}>
+                  <img src='/img/Warning.png' alt='' />
+                </div>
+                <div className={styles.warText}>
+                  <span>Навіть якщо</span> ти повний новачок в інвестиціях
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.image}>
+            <img src='/img/tania.png' alt='' />
+          </div>
+        </div>
+        <div className={styles.headerbutton}>
+          <button className={styles.button}>ПОЧАТИ ІНВЕСТУВАТИ</button>
+        </div>
       </div>
     </div>
   );

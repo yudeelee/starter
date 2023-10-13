@@ -1,7 +1,7 @@
 @import '../../styles/base';
 
 .header {
-  height: 108rem;
+  //   height: 108rem;
   background: url('/img/headerback.png');
   background-size: cover;
 }
@@ -102,4 +102,255 @@
   color: white;
   margin-top: -1.2rem;
   padding-left: 4rem;
+}
+
+.middle {
+  padding: 0 2rem;
+  margin-top: 21.7rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1200px) {
+    margin-top: 11.7rem;
+  }
+  @media (max-width: 1000px) {
+    margin-top: 6rem;
+  }
+  @media (max-width: 900px) {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  @media (max-width: 470px) {
+    margin-top: 1rem;
+  }
+  .middleLeft {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .middleText {
+      position: relative;
+      @media (max-width: 900px) {
+        padding-top: 26rem;
+        z-index: 20;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .warning {
+      margin-top: 1.8rem;
+      margin-right: 5rem;
+      display: flex;
+      @media (max-width: 1300px) {
+        width: 80%;
+        margin-right: 2rem;
+        font-size: 1.6rem;
+      }
+      @media (max-width: 1100px) {
+        width: 75%;
+        margin-right: 0;
+        font-size: 1.4rem;
+      }
+      @media (max-width: 900px) {
+        width: 34rem;
+        margin-right: 0;
+        font-size: 1.4rem;
+      }
+      .warText {
+        width: 30rem;
+        margin-left: 1rem;
+        color: white;
+        font-family: $AkzidenzLightExt;
+        font-size: 1.8rem;
+        @media (max-width: 1300px) {
+          font-size: 1.6rem;
+        }
+        @media (max-width: 1100px) {
+          font-size: 1.4rem;
+        }
+        span {
+          color: $yellow-dark;
+          font-family: $AkzidenzBoldEx;
+        }
+      }
+    }
+    .TextBlock {
+      width: 42.4rem;
+      padding: 2.8rem 1.7rem;
+      background-color: #1c1c1ce2;
+      border-radius: 1.2rem;
+      color: white;
+      font-family: $AkzidenzLightExt;
+      font-size: 1.8rem;
+      margin-top: 4rem;
+      @media (max-width: 1300px) {
+        width: 32rem;
+        font-size: 1.6rem;
+      }
+      @media (max-width: 1100px) {
+        width: 26rem;
+        font-size: 1.4rem;
+      }
+      @media (max-width: 900px) {
+        width: 30rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .middleRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .middleSubTitle {
+      text-align: end;
+    }
+  }
+  .middleTitle {
+    font-family: $AkzidenzBold;
+    font-size: 16rem;
+    line-height: 100%;
+    color: $yellow-dark;
+    @media (max-width: 1400px) {
+      font-size: calc((100vw - 375px) / (1400 - 375) * (160 - 48) + 48px);
+    }
+    @media (max-width: 470px) {
+      font-size: 4.4rem;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .middleSubTitle {
+    width: 100%;
+    margin-top: 3.2rem;
+    font-size: 6.1rem;
+    line-height: 48px;
+    color: white;
+    @media (max-width: 1400px) {
+      font-size: 5.1rem;
+      margin-top: 2.2rem;
+    }
+    @media (max-width: 1200px) {
+      font-size: 4.1rem;
+      margin-top: 0;
+    }
+    @media (max-width: 1050px) {
+      font-size: 3.2rem;
+    }
+  }
+  .image {
+    width: 60rem;
+    position: absolute;
+    top: -9rem;
+    left: 50%;
+    transform: translateX(-52%);
+    @media (max-width: 1300px) {
+      width: 50rem;
+    }
+    @media (max-width: 1150px) {
+      width: 40rem;
+      top: -5rem;
+    }
+    @media (max-width: 900px) {
+      width: 40rem;
+      top: 8rem;
+    }
+    @media (max-width: 680px) {
+      width: 40rem;
+      top: 14rem;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .middleRight {
+    .middleText {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .warning {
+      margin-top: 6.4rem;
+      margin-right: 5rem;
+      display: flex;
+      @media (max-width: 1300px) {
+        width: 80%;
+        margin-right: 2rem;
+        font-size: 1.6rem;
+      }
+      @media (max-width: 1100px) {
+        width: 75%;
+        margin-right: 0;
+        font-size: 1.4rem;
+      }
+      .warText {
+        width: 30rem;
+        margin-left: 1rem;
+        color: white;
+        font-family: $AkzidenzLightExt;
+        font-size: 1.8rem;
+        @media (max-width: 1300px) {
+          font-size: 1.6rem;
+        }
+        @media (max-width: 1100px) {
+          font-size: 1.4rem;
+        }
+        span {
+          color: $yellow-dark;
+          font-family: $AkzidenzBoldEx;
+        }
+      }
+    }
+  }
+}
+
+.headerbutton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 16rem;
+  @media (max-width: 900px) {
+    padding-top: 2.5rem;
+  }
+  .button {
+    position: relative;
+    z-index: 10;
+    width: 38.3rem;
+    height: 8rem;
+    background-color: $green-color;
+    border-radius: 0.5rem;
+    font-size: 2.4rem;
+    font-family: $AkzidenzMd;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    box-shadow: 4px 4px 12px 0px #bfeb0cc2;
+    @media (max-width: 1100px) {
+      width: 28.2rem;
+      height: 7rem;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.big {
+  @media (max-width: 900px) {
+    display: none !important;
+  }
+}
+
+.small {
+  display: none;
+  @media (max-width: 900px) {
+    display: inline-block;
+  }
+}
+
+.right {
+  @media (max-width: 900px) {
+    width: 100%;
+    display: block;
+    text-align: right;
+  }
 }
