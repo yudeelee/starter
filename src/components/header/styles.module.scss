@@ -154,9 +154,15 @@
         font-size: 1.4rem;
       }
       @media (max-width: 900px) {
-        width: 34rem;
+        width: 33rem;
         margin-right: 0;
         font-size: 1.4rem;
+      }
+      &.small {
+        display: none;
+        @media (max-width: 900px) {
+          display: flex;
+        }
       }
       .warText {
         width: 30rem;
