@@ -1,0 +1,52 @@
+@import '../../../styles/base';
+
+.login {
+  width: 30rem;
+  background-color: #0e0e0e;
+  padding: 2rem 2.3rem;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  box-shadow: -27.96666717529297px 27.96666717529297px 27.96666717529297px 0px
+    #ffffff1a inset;
+}
+
+.formHeader {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: $yellow-dark;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.formData {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  label {
+    display: block;
+    color: $yellow-dark;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  input {
+    width: 25rem;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+  }
+  &.error {
+    input {
+      border: 1px solid red;
+    }
+  }
+}
+
+.button {
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: $green-color;
+  margin: 0 auto;
+}

@@ -1,8 +1,8 @@
 import NextAuth from 'next-auth/next';
 import CredentialsProvider from 'next-auth/providers/credentials';
 import { MongoDBAdapter } from '@auth/mongodb-adapter';
-import clientPromise from './lib/mongodb';
-import db from '../../../utils/db.js';
+import clientPromise from '../../../../lib/mongodb';
+import db from '../../../../utils/db';
 import User from '@/models/User';
 import bcrypt from 'bcrypt';
 
@@ -38,13 +38,15 @@ export const authOptions = {
   secret: process.env.JWT_SECRET,
 };
 
-export default NextAuth(authOptions);
+const handler = NextAuth(authOptions);
+
+export { handler as GET, handler as POST };
 
 const SignInUser = async ({ password, user }) => {
   if (!user.password) {
     throw new Error('Please enter your password.');
   }
-  const testPassword = await bcrypt.compare(password, user.password);
+  const testPassword = password === user.password;
   if (!testPassword) {
     throw new Error('Email or password is wrong!');
   }
