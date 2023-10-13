@@ -1,0 +1,105 @@
+@import '../../styles/base';
+
+.header {
+  height: 108rem;
+  background: url('/img/headerback.png');
+  background-size: cover;
+}
+
+.container {
+  width: 140rem;
+  margin: 0 auto;
+  @media (max-width: 1400px) {
+    width: 100%;
+  }
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 4rem;
+  @media (max-width: 822px) {
+    padding: 0 1vw;
+    flex-direction: row-reverse;
+  }
+}
+
+.center {
+  @media (max-width: 995px) {
+    display: none;
+  }
+}
+
+.left {
+  .start {
+    @media (max-width: 822px) {
+      border-radius: 0 0 2rem 0;
+    }
+  }
+}
+.right {
+  .start {
+    @media (max-width: 822px) {
+      border-radius: 0 0 0 2rem;
+    }
+  }
+}
+
+.start {
+  height: 7rem;
+  width: 37.1rem;
+  border-radius: 0 0 2rem 2rem;
+  background: $gradient;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: 822px) {
+    height: 5rem;
+    width: 49vw;
+  }
+}
+
+.smTile {
+  text-align: center;
+  display: block;
+  font-size: 2.4rem;
+  font-family: $Akzidenz;
+  @media (max-width: 822px) {
+    font-size: 1.4rem;
+  }
+}
+
+.Tile {
+  text-align: center;
+  display: block;
+  font-size: 2.4rem;
+  font-family: $AkzidenzMdEx;
+  text-transform: uppercase;
+  @media (max-width: 822px) {
+    font-size: 1.2rem;
+  }
+}
+
+.firstName {
+  font-family: $AkzidenzMd;
+  font-size: 2.4rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.025rem;
+  color: $yellow-light;
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+}
+
+.secondName {
+  font-family: $Destina;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  letter-spacing: 0.025rem;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -1.2rem;
+  padding-left: 4rem;
+}
