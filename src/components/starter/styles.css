@@ -1,34 +1,34 @@
 @font-face {
   font-family: 'Akzidenz';
-  src: url('/fonts/akzidenzgroteskpro_regular.ttf');
+  src: url('../../styles/fonts/akzidenzgroteskpro_regular.ttf');
 }
 @font-face {
   font-family: 'AkzidenzMdEx';
-  src: url('/fonts/akzidenzgroteskpro_mdex.ttf');
+  src: url('../../styles/fonts/akzidenzgroteskpro_mdex.ttf');
 }
 @font-face {
   font-family: 'AkzidenzLightExt';
-  src: url('/fonts/akzidenzgroteskpro_lightex.ttf');
+  src: url('../../styles/fonts/akzidenzgroteskpro_lightex.ttf');
 }
 @font-face {
   font-family: 'AkzidenzBold';
-  src: url('/fonts/akzidenzgroteskpro_bold.ttf');
+  src: url('../../styles/fonts/akzidenzgroteskpro_bold.ttf');
 }
 @font-face {
   font-family: 'AkzidenzBoldEx';
-  src: url('/fonts/akzidenzgroteskpro_boldex.otf');
+  src: url('../../styles/fonts/akzidenzgroteskpro_boldex.otf');
 }
 @font-face {
   font-family: 'AkzidenzMd';
-  src: url('/fonts/akzidenzgroteskpro_md.ttf');
+  src: url('../../styles/fonts/akzidenzgroteskpro_md.ttf');
 }
 @font-face {
   font-family: 'AkzidenzREx';
-  src: url('/fonts/akzidenzgroteskpro_ext.otf');
+  src: url('../../styles/fonts/akzidenzgroteskpro_ext.otf');
 }
 @font-face {
   font-family: 'AkzidenzRIt';
-  src: url('/fonts/akzidenzgroteskpro_it.ttf');
+  src: url('../../styles/fonts/akzidenzgroteskpro_it.ttf');
 }
 * {
   margin: 0;
