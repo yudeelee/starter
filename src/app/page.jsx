@@ -3,12 +3,14 @@ import styles from './page.module.scss';
 import { Fragment } from 'react';
 import Header from '@/components/header/Header';
 import Why from '@/components/why/Why';
+import Result from '@/components/result/Result';
+import Starter from '@/components/starter/Starter';
 
 export default function Home() {
   return (
     <Fragment>
       <Header />
-      <Why />
+      <Starter />
     </Fragment>
   );
 }

@@ -31,9 +31,9 @@ const Why = () => {
                   який буде давати тобі 10% прибутку на рік.
                 </div>
               </div>
-              <div className={styles.lamp}>
+              {/* <div className={styles.lamp}>
                 <img src='/img/lamp.png' alt='' />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
