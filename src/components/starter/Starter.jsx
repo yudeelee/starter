@@ -177,7 +177,7 @@ const Starter = () => {
               <div className='arrItem'>
                 <img src='/img/triangle.png' alt='' />
                 <div className='whiteText'>
-                  Розбір мого портфеля та з мого все починалось, мій план на
+                  Розбір мого портфеля та з чого все починалось, мій план на
                   2023 - 2024 роки
                 </div>
               </div>

@@ -19,8 +19,7 @@ const page = () => {
           </div>
           <div className='text headerSmText'>
             Створи за 3 тижні свій інвестиційний портфель, який буде приносити
-            від
-            <span>$1`000</span> щомісяця
+            від <span>$1`000</span> щомісяця
           </div>
           <div className='yellowText'>
             і план розвитку на наступні 10 років життя
@@ -59,7 +58,7 @@ const page = () => {
                 <div className='containeItem'>
                   <span>Успішний портфель</span> складається з різнопланових
                   активів: etf фондів, акцій окремих компаній та облігацій
-                  (бондів);
+                  (bonds);
                 </div>
                 <div className='containeItem'>
                   <span>Збалансований</span> та
