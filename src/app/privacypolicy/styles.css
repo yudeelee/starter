@@ -1,6 +1,6 @@
 body {
   color: rgb(200, 200, 200);
-  padding: 40px;
+  padding: 10px;
 }
 
 .container {
@@ -11,6 +11,6 @@ body {
 @media (max-width: 1400px) {
   .container {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
   }
 }
