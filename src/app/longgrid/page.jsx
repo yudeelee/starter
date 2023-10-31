@@ -996,6 +996,20 @@ const page = () => {
           </footer>
         </div>
       </div>
+      <div className='privacy'>
+        <a
+          href='https://starter-nine-olive.vercel.app/privacypolicy'
+          className='priv'
+        >
+          Політика конфіденційності
+        </a>
+        <a
+          href='https://starter-nine-olive.vercel.app/publicoffer'
+          className='priv'
+        >
+          Публічна оферта
+        </a>
+      </div>
     </Fragment>
   );
 };
