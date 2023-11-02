@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 
-const Header = () => {
+const Header = ({ click }) => {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
@@ -72,7 +72,9 @@ const Header = () => {
           </div>
         </div>
         <div className={styles.headerbutton}>
-          <button className={styles.button}>ПОЧАТИ ІНВЕСТУВАТИ</button>
+          <button className={styles.button} onClick={click}>
+            ПОЧАТИ ІНВЕСТУВАТИ
+          </button>
         </div>
       </div>
     </div>
