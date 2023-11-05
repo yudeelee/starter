@@ -36,7 +36,7 @@ export default function Home() {
                 доходу.
               </div>
               <div className='slog'>
-                <span>АЛЕ РІШЕННЯ</span>Є!
+                <span>АЛЕ </span>РІШЕННЯ Є!
               </div>
               <div className='text text1'>4-денний інтенсив</div>
               <div className='littleSlog'>
