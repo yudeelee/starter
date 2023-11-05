@@ -31,12 +31,12 @@ export default function Home() {
             </div>
             <div className='right'>
               <div className='text'>
-                Більшість початківців бояться втратити гроші, через
+                Більшість початківців бояться втратити гроші через
                 брак знань і досвіду у сфері інвестицій та створення пасивного
                 доходу.
               </div>
               <div className='slog'>
-                <span>АЛЕ</span>Є РІШЕННЯ!
+                <span>АЛЕ РІШЕННЯ</span>Є!
               </div>
               <div className='text text1'>4-денний інтенсив</div>
               <div className='littleSlog'>
