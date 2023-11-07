@@ -415,7 +415,12 @@ export default function Home() {
                     <div className='old'>6 980 ₴</div>
                     <div className='new'>1 980 ₴</div>
                   </div>
-                  <div className='button'>ОБРАТИ ТАРИФ</div>
+                  <a
+                    href='https://secure.wayforpay.com/button/b2b15f9d18a79'
+                    className='button'
+                  >
+                    ОБРАТИ ТАРИФ
+                  </a>
                   <div className='tarStar'>
                     <span>*</span> І це твоя перша інвестиція в себе
                   </div>
@@ -545,7 +550,12 @@ export default function Home() {
                     <div className='old'>8 790 ₴</div>
                     <div className='new'>3 800 ₴</div>
                   </div>
-                  <div className='button'>ОБРАТИ ТАРИФ</div>
+                  <a
+                    href='https://secure.wayforpay.com/button/b60000961e9a5'
+                    className='button'
+                  >
+                    ОБРАТИ ТАРИФ
+                  </a>
                 </div>
               </div>
             </div>
