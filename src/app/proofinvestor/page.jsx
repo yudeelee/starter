@@ -355,7 +355,11 @@ const page = () => {
                 >
                   ОБРАТИ ТАРИФ
                 </a>
-                <a href='#' className='tbutton second'>
+                <a
+                  href='https://secure.wayforpay.com/button/bdeaca0d1384b'
+                  className='tbutton second'
+                  target='blank'
+                >
                   КУПИТИ В РОЗСТРОЧКУ
                 </a>
                 <a
@@ -467,7 +471,11 @@ const page = () => {
                 >
                   ОБРАТИ ТАРИФ
                 </a>
-                <a href='#' className='tbutton second' target='blank'>
+                <a
+                  href='https://secure.wayforpay.com/button/beb3bbcd03145'
+                  className='tbutton second'
+                  target='blank'
+                >
                   КУПИТИ В РОЗСТРОЧКУ
                 </a>
                 <a
@@ -581,7 +589,11 @@ const page = () => {
                 >
                   ОБРАТИ ТАРИФ
                 </a>
-                <a href='#' className='tbutton second'>
+                <a
+                  href='https://secure.wayforpay.com/button/b7202041ed042'
+                  className='tbutton second'
+                  target='blank'
+                >
                   КУПИТИ В РОЗСТРОЧКУ
                 </a>
                 <a
