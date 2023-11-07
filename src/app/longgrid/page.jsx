@@ -827,7 +827,11 @@ const page = () => {
             <span> 1 980 грн</span>
           </div>
           <div className='buttonWrapper'>
-            <a href='#' className='button'>
+            <a
+              href='https://secure.wayforpay.com/button/b2b15f9d18a79'
+              className='button'
+              target='blank'
+            >
               Взяти участь
             </a>
           </div>
@@ -912,7 +916,11 @@ const page = () => {
             <div className='swiper-button-next'></div>
           </div> */}
           <div className='buttonWrapper mt'>
-            <a href='#' className='button'>
+            <a
+              href='https://secure.wayforpay.com/button/b2b15f9d18a79'
+              className='button'
+              target='blank'
+            >
               ПРИЄДНАТИСЯ ДО ІНТЕНСИВУ
             </a>
           </div>
@@ -965,7 +973,11 @@ const page = () => {
             </div>
           </div>
           <div className='buttonWrapper mt'>
-            <a href='#' className='button'>
+            <a
+              href='https://secure.wayforpay.com/button/b2b15f9d18a79'
+              className='button'
+              target='blank'
+            >
               ПРИЄДНАТИСЯ ДО ІНТЕНСИВУ
             </a>
           </div>
