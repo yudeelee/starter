@@ -6,8 +6,14 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import './styles.css';
+import { useRef } from 'react';
 
 const page = () => {
+  const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <Fragment>
       <header className='header'>
@@ -30,9 +36,9 @@ const page = () => {
             </div>
           </div>
           <div className='buttonWrapper'>
-            <a href='' className='button'>
+            <button className='button' onClick={handleClick}>
               ХОЧУ ПОЧАТИ ІНВЕСТУВАТИ 
-            </a>
+            </button>
           </div>
         </div>
       </header>
@@ -79,9 +85,9 @@ const page = () => {
         </div>
         <div className='container'>
           <div className='buttonWrapper'>
-            <a href='' className='button'>
+            <button className='button' onClick={handleClick}>
               Ласкаво прошу до світу інвестицій 
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -138,9 +144,9 @@ const page = () => {
           </div>
         </div>
         <div className='buttonWrapper'>
-          <a href='' className='button'>
+          <button className='button' onClick={handleClick}>
             ОБРАТИ ВАРІАНТ УЧАСТІ
-          </a>
+          </button>{' '}
         </div>
       </div>
       <div className='program mt14'>
@@ -279,11 +285,11 @@ const page = () => {
             </div>
           </div>
           <div className='buttonWrapper'>
-            <a href='' className='button'>
+            <button className='button' onClick={handleClick}>
               ОБРАТИ ТАРИФ ТА ЗАБРОНЮВАТИ КРУТІ БОНУСИ
-            </a>
+            </button>
           </div>
-          <div className='tariffs'>
+          <div className='tariffs' ref={ref}>
             <div className='tariff first'>
               <div className='tHeader'>
                 <div className='tTop'>
@@ -342,13 +348,21 @@ const page = () => {
                   <div className='old'>14 999 ₴</div>
                   <div className='new'>10 950 ₴</div>
                 </div>
-                <a href='#' className='tbutton first mt3'>
+                <a
+                  href='https://secure.wayforpay.com/button/bdeaca0d1384b'
+                  className='tbutton first mt3'
+                  target='blank'
+                >
                   ОБРАТИ ТАРИФ
                 </a>
                 <a href='#' className='tbutton second'>
                   КУПИТИ В РОЗСТРОЧКУ
                 </a>
-                <a href='#' className='tbutton third'>
+                <a
+                  href='https://secure.wayforpay.com/button/bc67442a4b3f0'
+                  className='tbutton third'
+                  target='blank'
+                >
                   ЗАБРОНЮВАТИ МІСЦЕ ЗА 1 000 ГРН
                 </a>
               </div>
@@ -446,13 +460,21 @@ const page = () => {
                   <div className='old'>16 999 ₴</div>
                   <div className='new'>12 950 ₴</div>
                 </div>
-                <a href='#' className='tbutton first mt3'>
+                <a
+                  href='https://secure.wayforpay.com/button/beb3bbcd03145'
+                  className='tbutton first mt3'
+                  target='blank'
+                >
                   ОБРАТИ ТАРИФ
                 </a>
-                <a href='#' className='tbutton second'>
+                <a href='#' className='tbutton second' target='blank'>
                   КУПИТИ В РОЗСТРОЧКУ
                 </a>
-                <a href='#' className='tbutton third'>
+                <a
+                  href='https://secure.wayforpay.com/button/bc67442a4b3f0'
+                  className='tbutton third'
+                  target='blank'
+                >
                   ЗАБРОНЮВАТИ МІСЦЕ ЗА 1 000 ГРН
                 </a>
               </div>
@@ -552,13 +574,21 @@ const page = () => {
                   <div className='old'>39 999 ₴</div>
                   <div className='new'>25 950 ₴</div>
                 </div>
-                <a href='#' className='tbutton first mt3'>
+                <a
+                  href='https://secure.wayforpay.com/button/b7202041ed042'
+                  className='tbutton first mt3'
+                  target='blank'
+                >
                   ОБРАТИ ТАРИФ
                 </a>
                 <a href='#' className='tbutton second'>
                   КУПИТИ В РОЗСТРОЧКУ
                 </a>
-                <a href='#' className='tbutton third'>
+                <a
+                  href='https://secure.wayforpay.com/button/bc67442a4b3f0'
+                  className='tbutton third'
+                  target='blank'
+                >
                   ЗАБРОНЮВАТИ МІСЦЕ ЗА 1 000 ГРН
                 </a>
               </div>

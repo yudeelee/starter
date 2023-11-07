@@ -31,9 +31,8 @@ export default function Home() {
             </div>
             <div className='right'>
               <div className='text'>
-                Більшість початківців бояться втратити гроші через
-                брак знань і досвіду у сфері інвестицій та створення пасивного
-                доходу.
+                Більшість початківців бояться втратити гроші через брак знань і
+                досвіду у сфері інвестицій та створення пасивного доходу.
               </div>
               <div className='slog'>
                 <span>АЛЕ </span>РІШЕННЯ Є!
@@ -418,6 +417,7 @@ export default function Home() {
                   <a
                     href='https://secure.wayforpay.com/button/b2b15f9d18a79'
                     className='button'
+                    target='blank'
                   >
                     ОБРАТИ ТАРИФ
                   </a>
@@ -553,6 +553,7 @@ export default function Home() {
                   <a
                     href='https://secure.wayforpay.com/button/b60000961e9a5'
                     className='button'
+                    target='blank'
                   >
                     ОБРАТИ ТАРИФ
                   </a>
