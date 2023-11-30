@@ -828,7 +828,7 @@ const page = () => {
           </div>
           <div className='buttonWrapper'>
             <a
-              href='https://secure.wayforpay.com/button/b2b15f9d18a79'
+              href='https://proofinvestor.com.ua/'
               className='button'
               target='blank'
             >
@@ -917,7 +917,7 @@ const page = () => {
           </div> */}
           <div className='buttonWrapper mt'>
             <a
-              href='https://secure.wayforpay.com/button/b2b15f9d18a79'
+              href='https://proofinvestor.com.ua/'
               className='button'
               target='blank'
             >
@@ -974,7 +974,7 @@ const page = () => {
           </div>
           <div className='buttonWrapper mt'>
             <a
-              href='https://secure.wayforpay.com/button/b2b15f9d18a79'
+              href='https://proofinvestor.com.ua/'
               className='button'
               target='blank'
             >
