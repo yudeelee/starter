@@ -378,7 +378,7 @@ export default function Home() {
                     <div className='arrItem'>
                       <img src='/img/plus.png' alt='' />
                       <div className='whiteText'>
-                        Доступ до матеріалів курсу <span>на 1 тижні</span>
+                        Доступ до матеріалів курсу <span>на 1 тиждень</span>
                       </div>
                     </div>
                   </div>
@@ -415,7 +415,7 @@ export default function Home() {
                     <div className='new'>1 980 ₴</div>
                   </div>
                   <a
-                    href='https://secure.wayforpay.com/button/b2b15f9d18a79'
+                    href='https://proofinvestor.kwiga.com/o/9OTccMfJjCSI'
                     className='button'
                     target='blank'
                   >
@@ -551,7 +551,7 @@ export default function Home() {
                     <div className='new'>3 800 ₴</div>
                   </div>
                   <a
-                    href='https://secure.wayforpay.com/button/b60000961e9a5'
+                    href='https://proofinvestor.kwiga.com/o/gY5mMzKva1mS'
                     className='button'
                     target='blank'
                   >
