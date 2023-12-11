@@ -349,7 +349,7 @@ const page = () => {
                   <div className='new'>10 950 ₴</div>
                 </div>
                 <a
-                  href='https://secure.wayforpay.com/button/bdeaca0d1384b'
+                  href='https://proofinvestor.kwiga.com/o/aGKnaYpLvsUi'
                   className='tbutton first mt3'
                   target='blank'
                 >
@@ -454,7 +454,7 @@ const page = () => {
                       Допомога в збірці вашого портфеля від Тетяни
                     </li>
                     <li className='allText'>
-                      Додатковий урок від фінансового експерта
+                      Додатковий урок від фінансового експертаf
                     </li>
                   </ul>
                 </div>
@@ -465,7 +465,7 @@ const page = () => {
                   <div className='new'>12 950 ₴</div>
                 </div>
                 <a
-                  href='https://secure.wayforpay.com/button/beb3bbcd03145'
+                  href='https://proofinvestor.kwiga.com/o/2WgHc3yy5XGu'
                   className='tbutton first mt3'
                   target='blank'
                 >
@@ -583,7 +583,7 @@ const page = () => {
                   <div className='new'>25 950 ₴</div>
                 </div>
                 <a
-                  href='https://secure.wayforpay.com/button/b7202041ed042'
+                  href='https://proofinvestor.kwiga.com/o/bI1WgO7LWqd7'
                   className='tbutton first mt3'
                   target='blank'
                 >
