@@ -506,13 +506,6 @@ export default function Home() {
                     <div className='arrItem'>
                       <img src='/img/plus.png' alt='' />
                       <div className='whiteText'>
-                        Додаткові <span>2 варіанти</span> готових інвест
-                        портфелей
-                      </div>
-                    </div>
-                    <div className='arrItem'>
-                      <img src='/img/plus.png' alt='' />
-                      <div className='whiteText'>
                         <span>1 тиждень чату</span> підтримки і зворотного
                         зв’язку  від Тетяни
                       </div>
