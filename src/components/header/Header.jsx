@@ -8,10 +8,10 @@ const Header = ({ click }) => {
           <div className={styles.left}>
             <div className={styles.start}>
               <span className={styles.smTile}>Старт</span>
-              <span className={styles.Tile}>ПОНЕДІЛОК</span>
+              <span className={styles.Tile}>Одразу після оплати</span>
             </div>
           </div>
-          <div className={styles.center}>
+          <div className={styles.cenSter}>
             <div className={styles.name}>
               <span className={styles.firstName}>СЕЛЕЗНЬОВА</span>
               <span className={styles.secondName}>Tetyana</span>
