@@ -416,8 +416,16 @@ div.white1 {
   margin-top: 5rem;
 }
 
+.grafic .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .grafic .container img {
   width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .givedWrapper {
@@ -701,8 +709,15 @@ div.white1 {
   margin-bottom: 3rem;
 }
 
+.planImg {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .planImg img {
   width: 100%;
+  max-width: 700px;
 }
 
 .bleckFon {
