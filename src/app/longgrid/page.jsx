@@ -990,17 +990,6 @@ const page = () => {
             </div>
             <div className='footerBlock'>
               <div className='lightText'>
-                <span>Адреса реєстрації:</span>Україна, 79022, Львівська обл.,
-                місто Львів, вулиця Городоцька, будинок 289, квартира 26.
-              </div>
-            </div>
-            <div className='footerBlock'>
-              <div className='lightText'>
-                <span>РНОКПП:</span>3462107523
-              </div>
-            </div>
-            <div className='footerBlock'>
-              <div className='lightText'>
                 <span>Банківські реквізити:</span>IBAN
                 UA443052990000026005011012234 в АТ КБ "ПРИВАТБАНК"
               </div>
