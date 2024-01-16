@@ -38,6 +38,13 @@
     }
   }
 }
+
+.cenSter {
+  @media (max-width: 1050px) {
+    display: none;
+  }
+}
+
 .right {
   .start {
     @media (max-width: 822px) {
